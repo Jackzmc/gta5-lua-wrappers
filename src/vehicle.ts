@@ -56,7 +56,7 @@ export enum LicensePlatePosition {
     OnlyBack = 2
 }
 
-export default class Vehicle extends Entity {
+export class Vehicle extends Entity {
     private seats: VehicleSeats
     private health: VehicleHealth
 

@@ -10,11 +10,11 @@
   },
   "include": ["src/**/*"],
   "tstl": {
-    "luaTarget": "JIT",
-    "luaLibImport": "inline",
+    "luaTarget": "5.3",
+    // "luaLibImport": "inline",
     // "sourceMapTraceback": true,
     "buildMode": "default",
-    "luaBundleEntry": "src/index.ts",
-    "luaBundle": "wrappers.lua",
+    // "luaBundleEntry": "src/index.ts",
+    // "luaBundle": "wrappers.lua",
   }
 }
