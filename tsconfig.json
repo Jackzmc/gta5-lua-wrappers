@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "types": ["@typescript-to-lua/language-extensions", "lua-types/5.3", "gta-lua-types"],
+    "strict": true,
+    "module": "commonjs",
+    "outDir": "lua"
+  },
+  "include": ["src/**/*"],
+  "tstl": {
+    "luaTarget": "JIT",
+    "luaLibImport": "inline",
+    // "sourceMapTraceback": true,
+    "buildMode": "default",
+    "luaBundleEntry": "src/index.ts",
+    "luaBundle": "wrappers.lua",
+  }
+}
